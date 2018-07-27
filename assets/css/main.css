@@ -1,0 +1,22 @@
+
+ #titulo{
+	  text-align: center;
+	  color: #DADCDF;
+ }
+ 
+ select{
+	 width: 50%;
+	 font-size: 30px;
+	 border-radius: 12px;
+	 text-align: center;
+ }	
+ 
+ .selects{
+	 text-align: center;
+
+ }
+ 
+.submit-line{
+	width: 50%;
+	
+}
