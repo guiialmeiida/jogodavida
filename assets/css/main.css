@@ -6,17 +6,35 @@
  
  select{
 	 width: 50%;
-	 font-size: 30px;
 	 border-radius: 12px;
-	 text-align: center;
+	 
  }	
  
  .selects{
-	 text-align: center;
+	 text-align: center; /* Firefox */
+	 text-align-last: center; /* para chrome */
 
  }
  
 .submit-line{
 	width: 50%;
 	
+}
+
+body{
+	background-color: #799DEF;
+}
+
+#nova-tarefa{
+	float: right;
+	margin-right: 20%;
+}
+
+.tarefa{
+	float: center;
+
+}
+
+.titulo{
+	text-align: center;
 }
