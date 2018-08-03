@@ -1,4 +1,4 @@
- </!DOCTYPE html>
+<!DOCTYPE html>
  <html>
  <head>
  	<title>Jogo da Vida</title>
@@ -10,46 +10,63 @@
 
  </head>
  <body>
- 	<h1 id = 'titulo'>Cadastro de tarefas</h1>
+ 	<h1 id = 'cadastro-tarefas'>Cadastro de tarefas</h1>
  	<form action="armazenar-form" method="post">
 
- 		<div>
-        <label for="tarefa">Tarefa:</label>
-        <input type="text"/>
-    	</div><br>
-
-    	<div>
-        <label for="descricao">Descrição:</label>
-        <input type="text"/>
-    	</div><br>
-
-    	<div>
-        <label for="data">Data:</label>
-        <input type="date"/>
-    	</div><br>
-
-    	<div>
-        <label for="periodo">Periodo:</label>
-        <input type="text"/>
-    	</div><br>
-
-    	<div>
-        <label for="valor">Valor:</label>
-        <input type="text"/>
-    	</div><br>
-
-    	<div class = 'text-center'>
-		<select class = 'selects' > 
-		<option value="entrada">Entrada</option>
-		<option value="saida">Saida</option>
-		</select>
-		</div
-
-
+	<fieldset>
+		<table cellspacing="10" class="input-form">
+			<tr>
+				<td>
+					<label for="tarefa" class="font-form">Tarefa: </label>
+					<input type="text" name="tarefa">
+				</td>
+							
+				<td>
+					<label for="descricao" class="font-form input-form1">Descrição: </label>
+					<input type="text" name="descricao" align="left">
+				</td>
+				
+	
+			</tr>
+				
+			<tr>
+				<td>
+					<label class="font-form">Data: </label>
+					<input type="date" name="data" class="input-data">
+				</td>
+				
+				<td>
+					<label for="periodo" class="font-form input-form1">Periodo: </label>
+					<input type="text" name="periodo" align="left" class="input-periodo">
+				</td>
+  
+			</tr>
+			
+			<tr>
+				<td>
+					<label class="font-form">Valor: </label>
+					<input type="number" name="valor" class="input-valor">
+				</td>
+				
+				<td>
+					<label for="tipo" class="font-form input-form1">Tipo: </label>
+					<select align="left" class="select-tipo"> 
+					<option value="entrada">Entrada</option>
+					<option value="saida">Saida</option>
+					</select>
+				</td>
+  
+			</tr>
+ 
+	</table>
+	</fieldset>
 
 	</form>
 
+		
+		<button id="cad-form">Cadastrar</button>
+		<button id="limp-form" type="reset">Limpar</button>
 	
  
  </body>
- </html>	
+ </html>
