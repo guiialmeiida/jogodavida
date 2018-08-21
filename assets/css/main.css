@@ -1,7 +1,7 @@
-#titulo{
+.titulo{
 	  text-align: center;
 	  color: #DADCDF;
-	  margin-top: 70px;
+	  margin-top: 50px;
 	  font-size: 90px;
  }
  
@@ -12,7 +12,7 @@
 	 font-size: 90px;
  }
  
-.font-form{
+.font-label{
 	font-size: 25px;
 }
  
@@ -26,7 +26,7 @@
  .selects{
 	 text-align: center; /* Firefox */
 	 text-align-last: center; /* para chrome */
-	 margin-top: 70px;
+	 margin-top: 50px;
 	 border-radius: 12px;
 
  }
@@ -40,10 +40,11 @@ body{
 	background-color: #799DEF;
 }
 
-#nova-tarefa{
+.nova-tarefa{
 	float: right;
 	margin-right: 20%;
 	margin-top: 50px;
+	margin-left: 20px;
 }
 
 #cad-form{
@@ -66,18 +67,10 @@ body{
 }
 
 .input-index{
-	width: 50%;
-	margin-top: 10px;
+	width: 45%;
+	margin-top: 55px;
 }
 
-.input-index1{
-	width: 50%;
-	margin-top: 60px;
-}
-.input-index2{
-	width: 50%;
-	margin-top: 60px;
-}
 
 .input-form{
 	
@@ -91,7 +84,7 @@ body{
 
 .input-data{
 	margin-left: 15px;
-	width: 169px;
+	width: 176px;
 }
 
 .input-valor{
@@ -99,10 +92,11 @@ body{
 }
 
 .input-periodo{
-	margin-left: 20px;
+	margin-left: 22px;
+	width: 178px;
 }
 
 .select-tipo{
 	margin-left: 58px;
-	width: 168px;
+	width: 178px;
 }
