@@ -1,24 +1,28 @@
 .titulo{
 	  text-align: center;
-	  color: #DADCDF;
+	  color: #696969;
 	  margin-top: 50px;
 	  font-size: 90px;
+	  font-style: italic;
+	  font-weight: 400;
  }
  
- #cadastro-tarefas{
+ .cadastro-tarefas{
 	 text-align: center;
-	 color: #DADCDF;
-	 margin-top: 50px;
-	 font-size: 90px;
+	 color: #696969;
+	 margin-top: 229px;
+	 font-size: 68px;
+	 font-style: italic;
  }
  
 .font-label{
 	font-size: 25px;
+	font-style: italic;
 }
  
  select{
 	 
-	 width: 55%;
+	 width: 45%;
 
 	 
  }	
@@ -26,7 +30,7 @@
  .selects{
 	 text-align: center; /* Firefox */
 	 text-align-last: center; /* para chrome */
-	 margin-top: 50px;
+	 margin-top: 70px;
 	 border-radius: 12px;
 
  }
@@ -37,19 +41,28 @@
 }
 
 body{
-	background-color: #799DEF;
+	background-image: url(../imagens/caderno.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.calendario{
+	background-image: url(../imagens/calendario.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .nova-tarefa{
 	float: right;
-	margin-right: 20%;
-	margin-top: 50px;
-	margin-left: 20px;
+	margin-right: 30%;
+	margin-top: 40px;
+	margin-left: 30px;
 }
 
 #cad-form{
 	margin-left: 40%;
-	margin-top: 50px;
+	margin-top: 60px;
 }
 
 #limp-form{
@@ -62,19 +75,15 @@ body{
 
 }
 
-.titulo{
-	text-align: center;
-}
-
 .input-index{
-	width: 45%;
-	margin-top: 55px;
+	width: 35%;
+	margin-top: 50px;
 }
 
 
 .input-form{
 	
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-left: 28%;
 }
 
